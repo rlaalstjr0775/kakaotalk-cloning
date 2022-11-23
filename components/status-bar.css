@@ -1,0 +1,23 @@
+.status-bar {
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.status-bar__column {
+  width: 33%;
+}
+.status-bar i {
+  margin-right: 7px;
+}
+
+.status-bar__column:nth-child(2) {
+  background-color: black;
+  border-radius: 40px;
+}
+.status-bar__column:last-child {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
