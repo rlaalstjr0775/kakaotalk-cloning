@@ -1,0 +1,18 @@
+@import "reset.css";
+@import "variables.css";
+
+body {
+  background-color: lightgray;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+.screen {
+  width: 350px;
+  height: 700px;
+  background-color: whitesmoke;
+  border-radius: 40px;
+}
