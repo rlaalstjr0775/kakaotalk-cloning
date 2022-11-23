@@ -1,7 +1,11 @@
 @import "reset.css";
 @import "variables.css";
 
+/* components */
 @import "components/status-bar.css";
+
+/* screens */
+@import "screens/login.css";
 
 body {
   background-color: lightgray;
@@ -15,7 +19,7 @@ body {
 .screen {
   width: 350px;
   height: 700px;
-  background-color: whitesmoke;
+  background-color: var(--toss-bg-color);
   border-radius: 40px;
   padding: 0px 25px;
 }
