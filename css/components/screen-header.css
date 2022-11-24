@@ -1,0 +1,27 @@
+.screen-header {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.screen-header__title {
+  font-size: 30px;
+  font-weight: 700;
+  color: gray;
+}
+.screen-header__icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.screen-header__icons i {
+  margin-right: 20px;
+  color: gray;
+}
+.screen-header__icons i:hover {
+  color: var(--toss-blue);
+}
+.screen-header__icons i:last-child {
+  margin-right: 0px;
+}
