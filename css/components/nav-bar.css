@@ -1,7 +1,9 @@
 .nav-bar {
-  margin-top: 530px;
   border-radius: 30px;
   padding: 5px 10px;
+  position: fixed;
+  width: 330px;
+  bottom: 20px;
 }
 .nav-bar__list {
   display: flex;
