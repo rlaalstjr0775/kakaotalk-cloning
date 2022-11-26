@@ -8,7 +8,7 @@
 .screen-header__title {
   font-size: 30px;
   font-weight: 700;
-  color: gray;
+  color: rgba(0, 0, 0, 0.3);
 }
 .screen-header__icons {
   display: flex;
@@ -17,10 +17,10 @@
 }
 .screen-header__icons i {
   margin-right: 20px;
-  color: gray;
+  color: rgba(0, 0, 0, 0.3);
 }
 .screen-header__icons i:hover {
-  color: var(--toss-blue);
+  color: var(--toss-gray);
 }
 .screen-header__icons i:last-child {
   margin-right: 0px;

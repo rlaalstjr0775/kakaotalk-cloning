@@ -1,0 +1,26 @@
+.nav-bar {
+  margin-top: 530px;
+  border-radius: 30px;
+  padding: 5px 10px;
+}
+.nav-bar__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-bar__link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.nav-bar__btn i {
+  font-size: 22px;
+}
+.nav-bar__btn span {
+  margin-top: 10px;
+}
